@@ -6,6 +6,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { FaHtml5} from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io5";
 import { IoLogoJavascript } from "react-icons/io5";
+import { SiKotlin } from "react-icons/si";
 
 export default function Tools() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -22,7 +23,7 @@ export default function Tools() {
           </div>
           <div className="relative flex justify-center">
             <span className="bg-secondary-light_gray px-4 font-semibold text-base leading-6 text-gray-700">
-              Experience
+              Tools
             </span>
           </div>
         </div>
@@ -32,20 +33,8 @@ export default function Tools() {
               <FaHtml5 className="col-span-2 max-h-12 w-full object-contain lg:col-span-1" size={100}/>
               <IoLogoCss3 className="col-span-2 max-h-12 w-full object-contain lg:col-span-1" size={100}/>
               <IoLogoJavascript className="col-span-2 max-h-12 w-full object-contain lg:col-span-1" size={100}/>
-              <img
-                className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg"
-                alt="SavvyCal"
-                width={158}
-                height={48}
-              />
-              <img
-                className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg"
-                alt="Statamic"
-                width={158}
-                height={48}
-              />
+              <SiKotlin className="col-span-2 max-h-12 w-full object-contain lg:col-span-1" size={100}/>
+              <IoLogoJavascript className="col-span-2 max-h-12 w-full object-contain lg:col-span-1" size={100}/>
             </div>
           </div>
         </div>
