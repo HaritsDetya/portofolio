@@ -25,7 +25,7 @@ export default function Home() {
                 <div className="mx-auto max-w-3xl py-32 sm:py-48 lg:py-56 text-txt-dark_green">
                     <div className="text-center">
                         <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
-                            Hello, I'm Harits
+                            Hello, I`m Harits
                         </h1>
                         <h3 className="text-lg font-semibold mt-5 tracking-[.5em] text-gray-400 sm:text-xl">
                             Frontend Developer | UI/UX Designer
