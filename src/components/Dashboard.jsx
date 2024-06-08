@@ -39,9 +39,9 @@ export default function Example() {
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
-          <div className="hidden tracking-[.2em] lg:flex lg:gap-x-8">
+          <div className="hidden items-center tracking-[.2em] lg:flex lg:gap-x-8">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-xs font-semibold leading-2 text-white hover:px-2 hover:text-accent-dusty_rose hover:bg-white hover:rounded-full">
+              <a key={item.name} href={item.href} className="text-xs font-semibold leading-2 text-white hover:text-sm hover:text-accent-dusty_rose">
                 {item.name}
               </a>
             ))}
