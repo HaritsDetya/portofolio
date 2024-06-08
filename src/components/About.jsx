@@ -32,10 +32,10 @@ export default function About() {
                 </div> */}
                 <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 text-txt-dark_green">
                     <div className="text-justify text-lg">
-                        <p className="mb-4">Hi, I'm Harits, a passionate Frontend Developer with a keen eye for detail and a love for creating engaging, intuitive, and responsive web applications. With a background in Computer Science, I have honed my skills in HTML, CSS, JavaScript, and various modern frameworks like React and Vue.js.</p>
-                        <p className="mb-4">My journey into frontend development began [X years] ago when I realized my enthusiasm for designing user-centric digital experiences. Over the years, I've had the opportunity to work on diverse projects, ranging from small business websites to large-scale web applications.</p>
+                        <p className="mb-4">Hi, I`m Harits, a passionate Frontend Developer with a keen eye for detail and a love for creating engaging, intuitive, and responsive web applications. With a background in Computer Science, I have honed my skills in HTML, CSS, JavaScript, and various modern frameworks like React and Vue.js.</p>
+                        <p className="mb-4">My journey into frontend development began [X years] ago when I realized my enthusiasm for designing user-centric digital experiences. Over the years, I`ve had the opportunity to work on diverse projects, ranging from small business websites to large-scale web applications.</p>
                         <p className="mb-4">In addition to my technical skills, I am committed to continuous learning and staying updated with the latest industry trends and best practices. I enjoy collaborating with cross-functional teams to bring creative solutions to life and deliver exceptional user experiences.</p>
-                        <p className="mb-4">When I'm not coding, you can find me exploring the outdoors, reading about the latest tech innovations, or experimenting with new recipes in the kitchen.</p>
+                        <p className="mb-4">When I`m not coding, you can find me exploring the outdoors, reading about the latest tech innovations, or experimenting with new recipes in the kitchen.</p>
                     </div>
                 </div>
                 {/* <div
