@@ -17,8 +17,8 @@ export default function Example() {
 
   return (
     <div className="flex justify-center">
-      <header className="rounded-full bg-primary-soft_blue px-20 fixed top-5 z-50">
-        <nav className="flex justify-center max-lg:justify-end p-6 lg:px-8" aria-label="Global">
+      <header className="rounded-full bg-primary-soft_blue px-10 fixed top-5 z-50">
+        <nav className="flex justify-center max-lg:justify-end p-6" aria-label="Global">
           {/* <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
@@ -39,9 +39,9 @@ export default function Example() {
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
-          <div className="hidden tracking-widest lg:flex lg:gap-x-12">
+          <div className="hidden tracking-[.2em] lg:flex lg:gap-x-8">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-white hover:text-accent-dusty_rose">
+              <a key={item.name} href={item.href} className="text-xs font-semibold leading-2 text-white hover:px-2 hover:text-accent-dusty_rose hover:bg-white hover:rounded-full">
                 {item.name}
               </a>
             ))}
