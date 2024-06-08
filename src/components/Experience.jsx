@@ -15,7 +15,7 @@ export default function Experience() {
                         <div className="w-full border-t border-gray-400" />
                     </div>
                     <div className="relative flex justify-center">
-                        <span className="bg-secondary-light_gray px-4 font-semibold text-base leading-6 text-gray-700">Experience</span>
+                        <span className="bg-secondary-light_gray px-4 font-semibold text-base leading-6 text-gray-700">Project</span>
                     </div>
                 </div>
                 {/* <div

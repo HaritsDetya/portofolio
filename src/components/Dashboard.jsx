@@ -9,7 +9,7 @@ const navigation = [
   { name: 'About', href: '#About' },
   { name: 'Tools', href: '#Tools' },
   { name: 'Education', href: '#Education' },
-  { name: 'Experience', href: '#Experience' },
+  { name: 'Project', href: '#Experience' },
 ]
 
 export default function Example() {
@@ -32,7 +32,7 @@ export default function Example() {
           <div className="flex lg:hidden">
             <button
               type="button"
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white hover:text-accent-pale_gold"
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Open main menu</span>
@@ -41,7 +41,7 @@ export default function Example() {
           </div>
           <div className="hidden items-center tracking-[.2em] lg:flex lg:gap-x-8">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-xs font-semibold leading-2 text-white hover:text-sm hover:text-accent-dusty_rose">
+              <a key={item.name} href={item.href} className="text-xs font-semibold leading-2 text-white hover:text-sm hover:text-accent-pale_gold">
                 {item.name}
               </a>
             ))}
@@ -54,7 +54,7 @@ export default function Example() {
         </nav>
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
           <div className="fixed inset-0 z-50" />
-          <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-sky-50 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+          <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-secondary-light_gray/40 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
               {/* <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
@@ -66,7 +66,7 @@ export default function Example() {
               </a> */}
               <button
                 type="button"
-                className="-m-2.5 rounded-md p-2.5 text-gray-700"
+                className="-m-2.5 rounded-md p-2.5 text-gray"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <span className="sr-only">Close menu</span>
