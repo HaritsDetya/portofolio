@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import Image from 'next/image';
 
 export default function Home() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -24,6 +25,9 @@ export default function Home() {
                 </div> */}
                 <div className="mx-auto max-w-3xl py-32 sm:py-48 lg:py-56 text-txt-dark_green">
                     <div className="text-center">
+                        <Image
+                            src="/images/harits.png"
+                            width={200} height={200} alt="Harits"/>
                         <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
                             Hello, I`m Harits
                         </h1>
